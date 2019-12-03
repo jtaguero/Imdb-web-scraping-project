@@ -10,9 +10,7 @@ from bs4 import BeautifulSoup
 
 
 def scrape(item_number, end_number):
-    global vote_s
-    global director
-    global star
+
     
     vote_s = None
     director = None
